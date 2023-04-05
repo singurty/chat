@@ -17,13 +17,17 @@
 
 .channel-list {
   grid-row: span 2;
+  background-color: black;
+  color: white;
 }
 
 .chat-window {
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border-left: 3px solid #ccc;
+  padding-right: 3px;
+  background-color: black;
+  color: white;
   margin-bottom: 5px;
-  border-radius: 5px;
   padding: 10px;
   height: 100%;
 }
